@@ -7,14 +7,26 @@
 //
 
 import UIKit
+import MetrixSdk
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MetrixDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let yourAppId: String = "gvttfcnpeimctyf"
+        let environment: String = MXEnvironmentSandbox
+        
+        let metrixConfig = MXConfig(appId: yourAppId, environment: environment)
+        
+        metrixConfig?.trackerToken = "wyrxsz"
+        metrixConfig?.delegate = self
+
+        Metrix.appDidLaunch(metrixConfig)
+        
         return true
     }
 
@@ -31,7 +43,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+    
+    func metrixSessionIdChanged(_ sessionId: String?) {
+        print("Metrix SessionId received: ", sessionId);
+    }
 
+    func metrixAttributionChanged(_ attribution: MXAttribution?) {
+        print("Metrix user attribution callback called. Status: ", attribution?.attributionStatus)
+    }
 
 }
 

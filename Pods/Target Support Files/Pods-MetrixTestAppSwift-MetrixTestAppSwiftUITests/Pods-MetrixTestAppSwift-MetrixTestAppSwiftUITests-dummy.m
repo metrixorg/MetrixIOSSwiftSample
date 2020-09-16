@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MetrixTestAppSwift_MetrixTestAppSwiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MetrixTestAppSwift_MetrixTestAppSwiftUITests
+@end

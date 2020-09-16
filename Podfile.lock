@@ -1,0 +1,16 @@
+PODS:
+  - MetrixSdk (1.2.2)
+
+DEPENDENCIES:
+  - MetrixSdk (< 2.0, >= 1.2.2)
+
+SPEC REPOS:
+  trunk:
+    - MetrixSdk
+
+SPEC CHECKSUMS:
+  MetrixSdk: 4258468a9ea8181ef9059330134a2ba66f888a10
+
+PODFILE CHECKSUM: 5c56f4a1dd1a3f84804ef5928940420136f35730
+
+COCOAPODS: 1.9.3
