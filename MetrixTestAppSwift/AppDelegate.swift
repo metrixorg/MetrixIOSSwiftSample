@@ -7,26 +7,36 @@
 //
 
 import UIKit
-import MetrixSdk
+import Metrix
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, MetrixDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let yourAppId: String = "gvttfcnpeimctyf"
-        let environment: String = MXEnvironmentSandbox
-        
-        let metrixConfig = MXConfig(appId: yourAppId, environment: environment)
-        
-        metrixConfig?.trackerToken = "wyrxsz"
-        metrixConfig?.delegate = self
+        Metrix.initialize(metrixAppId: "nwfgohxcsgvokrb")
 
-        Metrix.appDidLaunch(metrixConfig)
-        
+        print("SessionNum: \(Metrix.getSessionNum()), SessionId: \(Metrix.getSessionId())")
+        Metrix.addUserAttributes(userAttrs: [
+            "phone": "11111111111"
+        ])
+
+        Metrix.setDefaultTracker(trackerToken: "trackerToken")
+
+        Metrix.setOnAttributionChangedListener { (data: AttributionData) in
+            print("Attribution status: \(data.attributionStatus.rawValue)")
+        }
+
+        Metrix.setUserIdListener { (userId: String) in
+            print("UserId: \(userId)")
+        }
+
+        Metrix.setStore(storeName: "App Store")
+
+        Metrix.setAppSecret(secretId: 1, info1: 355278893, info2: 787077622, info3: 1908838480, info4: 32828824)
+
         return true
     }
 
@@ -43,15 +53,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MetrixDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-    
-    
-    func metrixSessionIdChanged(_ sessionId: String?) {
-        print("Metrix SessionId received: ", sessionId);
-    }
-
-    func metrixAttributionChanged(_ attribution: MXAttribution?) {
-        print("Metrix user attribution callback called. Status: ", attribution?.attributionStatus)
-    }
-
 }
 

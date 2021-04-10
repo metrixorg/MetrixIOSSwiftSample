@@ -3,40 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		9CD315C46E84DD57ACD214180CC78CA4 /* MetrixSdk */ = {
+		A94F27B07F823DF43F84901BFB539509 /* Metrix */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AD9B5F1AF51739BAE17095E739F29600 /* Build configuration list for PBXAggregateTarget "MetrixSdk" */;
+			buildConfigurationList = 09A8EDD9B54102389A3AA914BA22E203 /* Build configuration list for PBXAggregateTarget "Metrix" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = MetrixSdk;
+			name = Metrix;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		09047F0E99CA5648BEEC84CECA9FA5EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		35A1F497B02F63290987F199AD065B5E /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F939F88C7CB92990643776BE64F093DF /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-dummy.m */; };
 		4AA5619770A0EE5FED189A944AA6130A /* Pods-MetrixTestAppSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFEB8239D464B5876013D855389D4CA /* Pods-MetrixTestAppSwiftTests-dummy.m */; };
-		4CC6FF5EAD4F9E56829341A746107192 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430760723D68DE610A89D8443C09B471 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EE754B5BDC8B2DFA1A8D2D69C3DCF79 /* Pods-MetrixTestAppSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDB9BB7AE8227BE8921702977456DA5 /* Pods-MetrixTestAppSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4AB911A37AF949B6EBA3160436EE196 /* Pods-MetrixTestAppSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C481B90561DFC5B8C18643A1DA8381 /* Pods-MetrixTestAppSwift-dummy.m */; };
-		CD50905030E1804FE091C5B8905F0E72 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F939F88C7CB92990643776BE64F093DF /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-dummy.m */; };
+		72B9B670A972723AD77862579CAE357E /* Pods-MetrixTestAppSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDB9BB7AE8227BE8921702977456DA5 /* Pods-MetrixTestAppSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83EB9634956243E32B0823052B80C231 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430760723D68DE610A89D8443C09B471 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C56A0562114DB00CA8AD49753C4DBF /* Pods-MetrixTestAppSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C481B90561DFC5B8C18643A1DA8381 /* Pods-MetrixTestAppSwift-dummy.m */; };
+		C900A2D5BB3239FE9895221C7680649D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D71E51278FB0F9279C05EC92EF64D01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D84E032A1355F19B72A317D738C9ECE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF4CB234AAFBF257C5CE06768AE5AD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F1D459966E447FFAF99AA6D6E47C2BB2 /* Pods-MetrixTestAppSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A07A6B5E641CFA5E59D84EBB7E84B8F /* Pods-MetrixTestAppSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1837D5961FAF8BE1B363B27312209F6C /* PBXContainerItemProxy */ = {
+		2552D4E8B63F3287CA7E94A0B1D9BDC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CD315C46E84DD57ACD214180CC78CA4;
-			remoteInfo = MetrixSdk;
+			remoteGlobalIDString = A94F27B07F823DF43F84901BFB539509;
+			remoteInfo = Metrix;
 		};
 		6286B0F2E6F84E0F1435EE8F246D9044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,12 +45,12 @@
 			remoteGlobalIDString = 4736E3E7662C1712BA356F62A4F95922;
 			remoteInfo = "Pods-MetrixTestAppSwift";
 		};
-		6F948C6E774C868147EB10A286DABCC7 /* PBXContainerItemProxy */ = {
+		E210A558658D7C74386EC7CEBC4E3032 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9CD315C46E84DD57ACD214180CC78CA4;
-			remoteInfo = MetrixSdk;
+			remoteGlobalIDString = A94F27B07F823DF43F84901BFB539509;
+			remoteInfo = Metrix;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -72,14 +72,14 @@
 		5486BAB86B3052F5E7EB5C153519EDDD /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.modulemap"; sourceTree = "<group>"; };
 		55C3E25382D851F4DA084560C2C5A0AB /* Pods-MetrixTestAppSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetrixTestAppSwift.release.xcconfig"; sourceTree = "<group>"; };
 		576881D5732ED18F6D3A0D27D3878379 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		64F7E8224DBE1E257B7F273F7291ACB4 /* MetrixSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetrixSdk.framework; sourceTree = "<group>"; };
 		67483A2930786998A054F5C8E637F120 /* Pods-MetrixTestAppSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetrixTestAppSwift.modulemap"; sourceTree = "<group>"; };
-		955F880D98E9EEB1CD621F5D2B071C5C /* MetrixSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MetrixSdk.release.xcconfig; sourceTree = "<group>"; };
 		9655CC53E8F2AB6B88A0A8136D21AD18 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8D5CCF582F77F076426394509ACBF86 /* MetrixSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MetrixSdk.debug.xcconfig; sourceTree = "<group>"; };
+		9FD64B656D9A6113594FE3A3E6F1DB8D /* Metrix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Metrix.debug.xcconfig; sourceTree = "<group>"; };
 		AE7A1462D60B7203F5F075AB45D9F48A /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
 		B167A78D07A9D9A89F30871D3A0FBB11 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE628DD4C8FF6791C0D2A34B983AE4D1 /* Metrix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Metrix.framework; sourceTree = "<group>"; };
+		C2CBDF3DE07724C9869E253596F428FA /* Metrix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Metrix.release.xcconfig; sourceTree = "<group>"; };
 		CFFEB8239D464B5876013D855389D4CA /* Pods-MetrixTestAppSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetrixTestAppSwiftTests-dummy.m"; sourceTree = "<group>"; };
 		D4337C7C3A78B6841AC15F287CF344E1 /* Pods-MetrixTestAppSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetrixTestAppSwift-acknowledgements.plist"; sourceTree = "<group>"; };
 		D53F984DE62AEAAF33D2F5FD26C982FA /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,25 +100,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B94452C0A61C72CDD70B64E5DA9924AB /* Frameworks */ = {
+		82630C0115E7503DAD5A7422FF52A65B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D84E032A1355F19B72A317D738C9ECE3 /* Foundation.framework in Frameworks */,
+				EF4CB234AAFBF257C5CE06768AE5AD8E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F65DB51471FE1B07965793C69C34CFC7 /* Frameworks */ = {
+		95DEBFCA98ECA37C3A51891DA44835EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09047F0E99CA5648BEEC84CECA9FA5EF /* Foundation.framework in Frameworks */,
+				C900A2D5BB3239FE9895221C7680649D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B6BCA01F1B2E406235B6F7AB81B467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE628DD4C8FF6791C0D2A34B983AE4D1 /* Metrix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27B63ECC5FA00FEF16080C2247203DA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,14 +154,6 @@
 			path = "Target Support Files/Pods-MetrixTestAppSwift";
 			sourceTree = "<group>";
 		};
-		4154DC97C371DD7B3C55EBDB9F97E155 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB82B45F8B78030C1F1A6E01FC2B7758 /* MetrixSdk */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		66DAC3A9DD3753D0A2FAF0BE66C22EB7 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,22 +171,24 @@
 			path = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests";
 			sourceTree = "<group>";
 		};
-		911EBB736129C637911FD85CC851531B /* Support Files */ = {
+		892551FD1FDE8BBD348C5E19BD5F084C /* Metrix */ = {
 			isa = PBXGroup;
 			children = (
-				A8D5CCF582F77F076426394509ACBF86 /* MetrixSdk.debug.xcconfig */,
-				955F880D98E9EEB1CD621F5D2B071C5C /* MetrixSdk.release.xcconfig */,
+				01B6BCA01F1B2E406235B6F7AB81B467 /* Frameworks */,
+				A48D8B8CA51F528490B3D776F95DFD13 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MetrixSdk";
+			name = Metrix;
+			path = Metrix;
 			sourceTree = "<group>";
 		};
-		AE7B373E9722A7F976CE4290FF02FFE5 /* Frameworks */ = {
+		A48D8B8CA51F528490B3D776F95DFD13 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				64F7E8224DBE1E257B7F273F7291ACB4 /* MetrixSdk.framework */,
+				9FD64B656D9A6113594FE3A3E6F1DB8D /* Metrix.debug.xcconfig */,
+				C2CBDF3DE07724C9869E253596F428FA /* Metrix.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Metrix";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -202,7 +204,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4154DC97C371DD7B3C55EBDB9F97E155 /* Pods */,
+				EFFC225EDF0778A2D4BF7940883C0402 /* Pods */,
 				27B63ECC5FA00FEF16080C2247203DA8 /* Products */,
 				F3DE6BC4B2EFE0E0DFBFFD814D19EFFF /* Targets Support Files */,
 			);
@@ -232,6 +234,14 @@
 			path = "Target Support Files/Pods-MetrixTestAppSwiftTests";
 			sourceTree = "<group>";
 		};
+		EFFC225EDF0778A2D4BF7940883C0402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				892551FD1FDE8BBD348C5E19BD5F084C /* Metrix */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F3DE6BC4B2EFE0E0DFBFFD814D19EFFF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,27 +252,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FB82B45F8B78030C1F1A6E01FC2B7758 /* MetrixSdk */ = {
-			isa = PBXGroup;
-			children = (
-				AE7B373E9722A7F976CE4290FF02FFE5 /* Frameworks */,
-				911EBB736129C637911FD85CC851531B /* Support Files */,
-			);
-			name = MetrixSdk;
-			path = MetrixSdk;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		65FF185AD824721A067089E3FD1F338F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EE754B5BDC8B2DFA1A8D2D69C3DCF79 /* Pods-MetrixTestAppSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		939DFADFC697AF6FC7E247352A1422D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,11 +263,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5822206DDA22B9600C249DE52F0EF3D /* Headers */ = {
+		C0ED1CCCABCBE57DEE65AE7B61B9FCA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC6FF5EAD4F9E56829341A746107192 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-umbrella.h in Headers */,
+				72B9B670A972723AD77862579CAE357E /* Pods-MetrixTestAppSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72CDF4AC024B80DDC39DE286385BD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EB9634956243E32B0823052B80C231 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,17 +303,17 @@
 		};
 		4736E3E7662C1712BA356F62A4F95922 /* Pods-MetrixTestAppSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECB0EA87520F61E004FF76C28117B33F /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift" */;
+			buildConfigurationList = C633C8C46C75091E570167CE5B01A818 /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift" */;
 			buildPhases = (
-				65FF185AD824721A067089E3FD1F338F /* Headers */,
-				7AB1228710AAFDC8F2C61F65DF75E4F6 /* Sources */,
-				F65DB51471FE1B07965793C69C34CFC7 /* Frameworks */,
-				3474BC9867E41760B269BDE2CC40A25F /* Resources */,
+				C0ED1CCCABCBE57DEE65AE7B61B9FCA8 /* Headers */,
+				E454E8A9A4E5BF1624E7130BCCBE0D57 /* Sources */,
+				82630C0115E7503DAD5A7422FF52A65B /* Frameworks */,
+				C702C34F66DDDEF272CF6D8C9E8CCD56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0F0D258730D410A5ECE687AB30D42DD /* PBXTargetDependency */,
+				4859B63D2F75F2FB9995EE7123554B93 /* PBXTargetDependency */,
 			);
 			name = "Pods-MetrixTestAppSwift";
 			productName = "Pods-MetrixTestAppSwift";
@@ -322,17 +322,17 @@
 		};
 		767451DD05392CD400AA7D6B0FBC93F6 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B1E76A2C1618BED1ECA85FA079224F2 /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests" */;
+			buildConfigurationList = 1273A962639609B0B2757E9E63A1DC3F /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests" */;
 			buildPhases = (
-				A5822206DDA22B9600C249DE52F0EF3D /* Headers */,
-				7A7674EDEB9B083303E47550D5F71AA8 /* Sources */,
-				B94452C0A61C72CDD70B64E5DA9924AB /* Frameworks */,
-				EA820FD715823B2A589BC8DB56B69E2F /* Resources */,
+				EA72CDF4AC024B80DDC39DE286385BD1 /* Headers */,
+				124BE64B4D834E6209FF2503012049C8 /* Sources */,
+				95DEBFCA98ECA37C3A51891DA44835EE /* Frameworks */,
+				E9E3C63E4674F0AFB506553B5735728F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D8AB51C4D1CA0FD712B48BA4A20D0D34 /* PBXTargetDependency */,
+				AAE01C870816F46428756A9F548BB4F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests";
 			productName = "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests";
@@ -349,7 +349,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -361,7 +361,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CD315C46E84DD57ACD214180CC78CA4 /* MetrixSdk */,
+				A94F27B07F823DF43F84901BFB539509 /* Metrix */,
 				4736E3E7662C1712BA356F62A4F95922 /* Pods-MetrixTestAppSwift */,
 				767451DD05392CD400AA7D6B0FBC93F6 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests */,
 				25AABE4C84B69D40B08AC7F28288AD48 /* Pods-MetrixTestAppSwiftTests */,
@@ -370,13 +370,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3474BC9867E41760B269BDE2CC40A25F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC1ABF00BFCF36A99E0306333CD22F92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,7 +377,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA820FD715823B2A589BC8DB56B69E2F /* Resources */ = {
+		C702C34F66DDDEF272CF6D8C9E8CCD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E3C63E4674F0AFB506553B5735728F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,19 +394,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A7674EDEB9B083303E47550D5F71AA8 /* Sources */ = {
+		124BE64B4D834E6209FF2503012049C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD50905030E1804FE091C5B8905F0E72 /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AB1228710AAFDC8F2C61F65DF75E4F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4AB911A37AF949B6EBA3160436EE196 /* Pods-MetrixTestAppSwift-dummy.m in Sources */,
+				35A1F497B02F63290987F199AD065B5E /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +407,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AA5619770A0EE5FED189A944AA6130A /* Pods-MetrixTestAppSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E454E8A9A4E5BF1624E7130BCCBE0D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C56A0562114DB00CA8AD49753C4DBF /* Pods-MetrixTestAppSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,21 +427,137 @@
 			target = 4736E3E7662C1712BA356F62A4F95922 /* Pods-MetrixTestAppSwift */;
 			targetProxy = 6286B0F2E6F84E0F1435EE8F246D9044 /* PBXContainerItemProxy */;
 		};
-		C0F0D258730D410A5ECE687AB30D42DD /* PBXTargetDependency */ = {
+		4859B63D2F75F2FB9995EE7123554B93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MetrixSdk;
-			target = 9CD315C46E84DD57ACD214180CC78CA4 /* MetrixSdk */;
-			targetProxy = 6F948C6E774C868147EB10A286DABCC7 /* PBXContainerItemProxy */;
+			name = Metrix;
+			target = A94F27B07F823DF43F84901BFB539509 /* Metrix */;
+			targetProxy = E210A558658D7C74386EC7CEBC4E3032 /* PBXContainerItemProxy */;
 		};
-		D8AB51C4D1CA0FD712B48BA4A20D0D34 /* PBXTargetDependency */ = {
+		AAE01C870816F46428756A9F548BB4F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MetrixSdk;
-			target = 9CD315C46E84DD57ACD214180CC78CA4 /* MetrixSdk */;
-			targetProxy = 1837D5961FAF8BE1B363B27312209F6C /* PBXContainerItemProxy */;
+			name = Metrix;
+			target = A94F27B07F823DF43F84901BFB539509 /* Metrix */;
+			targetProxy = 2552D4E8B63F3287CA7E94A0B1D9BDC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2C5F601C2D45C27CA1FEABA360BDC560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C3E25382D851F4DA084560C2C5A0AB /* Pods-MetrixTestAppSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37CD852E5219440DA05A85A19E14BA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53F984DE62AEAAF33D2F5FD26C982FA /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B807865EC1E42E8D3EC6B993B590295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327C4CC86E73C5B198286B575B2F6B0B /* Pods-MetrixTestAppSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		61FC5749665EDDB2D90E737333B3BA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -506,45 +622,6 @@
 			};
 			name = Debug;
 		};
-		6AEC30350BD092D4AB0E0CC7E682453C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D53F984DE62AEAAF33D2F5FD26C982FA /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7ED7C6830895408BD840A36BCF0D7299 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 011EAF530F26A4FCF99195D2E835294B /* Pods-MetrixTestAppSwiftTests.release.xcconfig */;
@@ -584,137 +661,6 @@
 			};
 			name = Release;
 		};
-		929933626A809E4D2D005706C4AD9923 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8D5CCF582F77F076426394509ACBF86 /* MetrixSdk.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		99F9DFAA7BBB99A4E2BDE04FB816E3D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CC74135CEA807118DF17CE2AEF1479E /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9ECCC18719A5056E53407E7175D4478A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55C3E25382D851F4DA084560C2C5A0AB /* Pods-MetrixTestAppSwift.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C5FB5795455999AB18C36EC3A5E4602D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 327C4CC86E73C5B198286B575B2F6B0B /* Pods-MetrixTestAppSwift.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C845E4433EB9F01796223F11CC9A9930 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15F60294EEB39AF1008DC75B1319074D /* Pods-MetrixTestAppSwiftTests.debug.xcconfig */;
@@ -740,6 +686,79 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwiftTests/Pods-MetrixTestAppSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0E6C6D5137870315557D6E5D73BFC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CBDF3DE07724C9869E253596F428FA /* Metrix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8E7F2B2DDC155FA1F277870279037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD64B656D9A6113594FE3A3E6F1DB8D /* Metrix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECE26BCF24E4B2C2A3838DBB58F47165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC74135CEA807118DF17CE2AEF1479E /* Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests/Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -813,26 +832,27 @@
 			};
 			name = Release;
 		};
-		FBF62A5C5008AA4B90C4524A11214B6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 955F880D98E9EEB1CD621F5D2B071C5C /* MetrixSdk.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		09A8EDD9B54102389A3AA914BA22E203 /* Build configuration list for PBXAggregateTarget "Metrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8E7F2B2DDC155FA1F277870279037B /* Debug */,
+				D0E6C6D5137870315557D6E5D73BFC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1273A962639609B0B2757E9E63A1DC3F /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE26BCF24E4B2C2A3838DBB58F47165 /* Debug */,
+				37CD852E5219440DA05A85A19E14BA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -842,29 +862,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B1E76A2C1618BED1ECA85FA079224F2 /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift-MetrixTestAppSwiftUITests" */ = {
+		C633C8C46C75091E570167CE5B01A818 /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99F9DFAA7BBB99A4E2BDE04FB816E3D6 /* Debug */,
-				6AEC30350BD092D4AB0E0CC7E682453C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD9B5F1AF51739BAE17095E739F29600 /* Build configuration list for PBXAggregateTarget "MetrixSdk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				929933626A809E4D2D005706C4AD9923 /* Debug */,
-				FBF62A5C5008AA4B90C4524A11214B6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ECB0EA87520F61E004FF76C28117B33F /* Build configuration list for PBXNativeTarget "Pods-MetrixTestAppSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5FB5795455999AB18C36EC3A5E4602D /* Debug */,
-				9ECCC18719A5056E53407E7175D4478A /* Release */,
+				3B807865EC1E42E8D3EC6B993B590295 /* Debug */,
+				2C5F601C2D45C27CA1FEABA360BDC560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

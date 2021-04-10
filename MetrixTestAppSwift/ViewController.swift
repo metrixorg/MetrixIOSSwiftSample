@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MetrixSdk
+import Metrix
 
 class ViewController: UIViewController {
 
@@ -16,28 +16,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        userIdLabel.text = "Metrix UserId: " + "\n" + (Metrix.mxid() ?? "")
     }
 
     @IBAction func sendEventClick(_ sender: UIButton) {
-        let myAttributes = [
-            "first_name": "Mohammad",
-            "last_name": "Bagheri",
-            "manufacturer": "Nike",
-            "product_name": "shirt",
-            "type": "sport",
-            "size": "large"]
-        let myMetrics : [String: NSNumber] = [:]
-        let event = MXCustomEvent(slug: "msdok", attributes:myAttributes, metrics:myMetrics)
-        Metrix.trackCustomEvent(event)
+        Metrix.newEvent(slug: "qixcu", attributes: ["name": "matin"])
+        Metrix.newEvent(slug: "qixcu")
     }
     
     @IBAction func sendRevenueClick(_ sender: UIButton) {
-        Metrix.trackRevenue("giaoj", withValue: 12000, currency: MXCurrency.IRR, orderId: "myOrderId")
+        Metrix.newRevenue(slug: "ubdya", revenue: 124.0)
+        Metrix.newRevenue(slug: "ubdya", revenue: 12.6, currency: .USD)
+        Metrix.newRevenue(slug: "ubdya", revenue: 32.6, orderId: "someOrderId")
+        Metrix.newRevenue(slug: "ubdya", revenue: 1244, currency: .EUR, orderId: "someOrderId2")
     }
     
     @IBAction func getAttributionClick(_ sender: UIButton) {
-        Metrix.requestAttribution()
+
     }
 }
 
