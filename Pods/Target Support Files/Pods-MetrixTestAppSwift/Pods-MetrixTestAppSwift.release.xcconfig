@@ -1,5 +1,4 @@
-EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Metrix"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Metrix/unity"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_LDFLAGS = $(inherited) -framework "AdSupport" -framework "CoreLocation" -framework "CoreTelephony" -framework "Metrix" -framework "SystemConfiguration" -framework "UIKit"

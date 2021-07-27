@@ -12,18 +12,19 @@ import Metrix
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        Metrix.initialize(metrixAppId: "nwfgohxcsgvokrb")
+        Metrix.initialize(metrixAppId: "lcqmfsnvhzznvhe")
 
         print("SessionNum: \(Metrix.getSessionNum()), SessionId: \(Metrix.getSessionId())")
         Metrix.addUserAttributes(userAttrs: [
             "phone": "11111111111"
         ])
 
-        Metrix.setDefaultTracker(trackerToken: "trackerToken")
+        Metrix.setDefaultTracker(trackerToken: "uevt4h")
 
         Metrix.setOnAttributionChangedListener { (data: AttributionData) in
             print("Attribution status: \(data.attributionStatus.rawValue)")
@@ -35,19 +36,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Metrix.setStore(storeName: "App Store")
 
-        Metrix.setAppSecret(secretId: 1, info1: 355278893, info2: 787077622, info3: 1908838480, info4: 32828824)
+        Metrix.setAppSecret(secretId: 1, info1: 429751687, info2: 1057026454, info3: 796046595, info4: 610423971)
 
         return true
     }
 
     // MARK: UISceneSession Lifecycle
 
+    
+    @available(iOS 13.0, *)
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
+    @available(iOS 13.0, *)
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.

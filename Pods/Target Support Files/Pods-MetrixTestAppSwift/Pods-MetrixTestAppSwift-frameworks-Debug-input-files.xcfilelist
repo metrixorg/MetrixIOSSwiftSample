@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-MetrixTestAppSwift/Pods-MetrixTestAppSwift-frameworks.sh
-${PODS_ROOT}/Metrix/Metrix.framework
+${PODS_ROOT}/Metrix/unity/Metrix.framework
