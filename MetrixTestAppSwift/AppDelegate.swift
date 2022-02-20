@@ -17,26 +17,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        Metrix.initialize(metrixAppId: "lcqmfsnvhzznvhe")
+        MetrixClient.initialize(metrixAppId: "lcqmfsnvhzznvhe")
 
-        print("SessionNum: \(Metrix.getSessionNum()), SessionId: \(Metrix.getSessionId())")
-        Metrix.addUserAttributes(userAttrs: [
-            "phone": "11111111111"
-        ])
+        // Optional
+        MetrixClient.addUserAttributes(userAttrs: ["phone": "11111111111"])
 
-        Metrix.setDefaultTracker(trackerToken: "uevt4h")
+        // Optional
+        MetrixClient.setDefaultTracker(trackerToken: "uevt4h")
 
-        Metrix.setOnAttributionChangedListener { (data: AttributionData) in
-            print("Attribution status: \(data.attributionStatus.rawValue)")
+        // Optional
+        MetrixClient.setOnAttributionChangedListener { (data: AttributionData) in
+            print("[Metrix Sample App]: Attribution status: \(data.attributionStatus.rawValue)")
         }
 
-        Metrix.setUserIdListener { (userId: String) in
-            print("UserId: \(userId)")
+        // Optional
+        MetrixClient.setUserIdListener { (userId: String) in
+            print("[Metrix Sample App]: UserId: \(userId)")
         }
 
-        Metrix.setStore(storeName: "App Store")
+        // Optional
+        MetrixClient.setStore(storeName: "App Store")
 
-        Metrix.setAppSecret(secretId: 1, info1: 429751687, info2: 1057026454, info3: 796046595, info4: 610423971)
+        // Optional
+        MetrixClient.setAppSecret(secretId: 1, info1: 429751687, info2: 1057026454, info3: 796046595, info4: 610423971)
+        
+        // Optional
+        MetrixClient.setSessionIdListener { (sessionId: String) in
+            print("[Metrix Sample App]: SessionId: \(sessionId)")
+        }
+        
+        // Optional
+        MetrixClient.setSessionNumberListener { (sessionNum: Int) in
+            print("[Metrix Sample App]: Session Number: \(sessionNum)")
+        }
 
         return true
     }

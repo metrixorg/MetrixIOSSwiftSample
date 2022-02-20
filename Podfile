@@ -5,7 +5,9 @@ target 'MetrixTestAppSwift' do
   use_frameworks!
 
   # Pods for MetrixTestAppSwift
-  pod 'Metrix/unity', '2.0.0-beta02'
+  
+  # add this Pod
+  pod 'Metrix/native', '2.0.1'
 
   target 'MetrixTestAppSwiftTests' do
     inherit! :search_paths

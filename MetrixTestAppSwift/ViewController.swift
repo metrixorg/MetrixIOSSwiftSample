@@ -19,19 +19,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendEventClick(_ sender: UIButton) {
-        Metrix.newEvent(slug: "jqgjh", attributes: ["name": "matin"])
-        Metrix.newEvent(slug: "jqgjh")
+        MetrixClient.newEvent(slug: "jqgjh", attributes: ["name": "matin"])
+        MetrixClient.newEvent(slug: "jqgjh")
     }
     
     @IBAction func sendRevenueClick(_ sender: UIButton) {
-        Metrix.newRevenue(slug: "prfrn", revenue: 124.0)
-        Metrix.newRevenue(slug: "prfrn", revenue: 12.6, currency: .USD)
-        Metrix.newRevenue(slug: "prfrn", revenue: 32.6, orderId: "someOrderId")
-        Metrix.newRevenue(slug: "prfrn", revenue: 1244, currency: .EUR, orderId: "someOrderId2")
-    }
-    
-    @IBAction func getAttributionClick(_ sender: UIButton) {
-
+        MetrixClient.newRevenue(slug: "prfrn", revenue: 124.0)
+        MetrixClient.newRevenue(slug: "prfrn", revenue: 12.6, currency: .USD)
+        MetrixClient.newRevenue(slug: "prfrn", revenue: 32.6, orderId: "someOrderId")
+        MetrixClient.newRevenue(slug: "prfrn", revenue: 1244, currency: .EUR, orderId: "someOrderId2")
     }
 }
 
