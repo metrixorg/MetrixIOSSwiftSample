@@ -1,16 +1,16 @@
 PODS:
-  - Metrix/native (2.0.1)
+  - Metrix/native (2.0.3)
 
 DEPENDENCIES:
-  - Metrix/native (= 2.0.1)
+  - Metrix/native (= 2.0.3)
 
 SPEC REPOS:
   trunk:
     - Metrix
 
 SPEC CHECKSUMS:
-  Metrix: dbedc717f14b15e80f4c21be1598aef9be8355ca
+  Metrix: 1cf51e3aba6219f1063dbd81174a64a969cfb40a
 
-PODFILE CHECKSUM: c7c6e4e3db8802a7bb95dde06ee1a258d69aa122
+PODFILE CHECKSUM: 1781c8bcce767f5440e39d9d8cac9296e51aa012
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.3
